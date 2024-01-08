@@ -1,8 +1,32 @@
+@media only screen and (min-width: 300px) {
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(165, 100, 100);
+  color: white;
+  flex-direction: column;
+  line-height: 1.6;
+}}
+a {
+  color: #d9db7b;
+  padding-top: 5px;
+  align-items: center;
+  text-decoration: none;
 }
 
-a {
-  color: #00B7FF;
+h3 {
+  padding-top: 20px;
+}
+
+/* Style for lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
 }

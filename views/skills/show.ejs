@@ -1,0 +1,18 @@
+<%- include('../partials/header') %>
+
+
+<div>
+  <%= console.log(skill) %>
+<h3><%= skill.skill %></h3>
+<h3>Complete: <%= skill.level ? 'Yes' : 'No' %></h3>
+<a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+ <form
+        action="/skills/<%= skill.id %>?_method=DELETE"
+        method="POST"
+        class="delete-form"
+      >
+        <button type="submit">X</button>
+      </form>
+</div>
+
+<%- include('../partials/footer') %>
